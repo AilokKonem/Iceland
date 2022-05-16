@@ -1,0 +1,141 @@
+* {
+    font-family: 'Playfair Display', serif;
+    color: #Feffff;
+}
+
+body {
+    background-color: #343734;
+}
+
+.header {
+    background-color: #9b9b9b;
+    display: flex;
+    letter-spacing: 4px;
+    margin-bottom: 140px;
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: 260;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 5px solid white;
+    padding: 0px 20px;
+}
+
+.nav-links {
+    width: 70%;
+}
+
+ul {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+
+}
+
+li {
+    list-style-type: none;
+    letter-spacing: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.subtitle {
+    font-family: 'Macondo', cursive;
+    font-weight: 400;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.front-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+    margin-bottom: 140px;
+    
+}
+
+.front-img img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.description {
+    font-family: 'Macondo', cursive;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 200px;
+
+}
+
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+    
+}
+
+.fa-solid {
+    font-size: 80px;
+    
+}
+
+.travel, .places, .rent-a-car {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 150px;
+    padding: 50px;
+}
+
+.image-gallery {
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    
+}
+
+.picture {
+    padding-bottom: 20px;
+}
+
+.footer {
+    background-color: #0f0f0f;
+    height: 100px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-text {
+    border-right: 2px solid white; 
+    padding-right: 10px;
+}
+
+.foot-icons {
+    font-size: 20px;
+}
+
+.fa-brands {
+    padding: 0 8px;
+}
+
+
